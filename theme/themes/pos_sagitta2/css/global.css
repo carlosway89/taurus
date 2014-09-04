@@ -374,7 +374,7 @@ a {
   color: #666;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #45d8bb;
+    color: #E75768;
     text-decoration: underline; }
   a:focus {
     outline: thin dotted #333;
@@ -6199,7 +6199,7 @@ table.table_block td {
     }
     .block .title_block a:hover,
     .block h4 a:hover {
-      color: #45d8bb; }
+      color: #E75768; }
 .block .list-block {
   margin-top: -8px; }
   @media (max-width: 767px) {
@@ -8415,7 +8415,7 @@ border-radius: 30px;
 
 #newsletter_block_left .button:hover  {opacity: 0.8;}
 #newsletter_block_left .newletter-header {
-    color: #fff;
+    /*color: #fff;*/
     font-size: 24px;
     font-family: 'breeserif';
     display: inline-block;
@@ -8423,7 +8423,7 @@ border-radius: 30px;
     margin:0 20px 0 0;
     vertical-align: middle;}
 #newsletter_block_left form {display: inline-block;}
-#newsletter_block_left .block_content {text-align: center; padding:25px 0; background: url(../img/Teal_Magenta/bg-subscribe.png) repeat-x;}
+#newsletter_block_left .block_content {text-align: center; padding:25px 0;}
 
 
 .pos-footer-top {padding:50px 0;}
@@ -9548,7 +9548,7 @@ ul.idTabs li {
     text-transform: capitalize;
     text-align: center;
     border-bottom:4px solid #323a45;
-    padding:12px 20px;
+    padding:12px 50px;
     height:60px;
 }
 @media (max-width: 1200px){
@@ -9574,7 +9574,7 @@ ul.idTabs li {
     .nav-container {}
 }
 
-#pt_menu_pt_item_menu_custom_menu .parentMenu span{padding:28px 20px; line-height: 0;}
+#pt_menu_pt_item_menu_custom_menu .parentMenu span{padding:28px 50px; line-height: 0;}
 .pt_custommenu #pt_menu_home .parentMenu a { border-radius: 5px 0 0 5px; }
 .pt_custommenu #popup_pt_item_menu_custom_menu { width: 100% !important;}
 #popup_pt_item_menu_custom_menu .block2 {}
@@ -14192,7 +14192,7 @@ ul.tab_cates-slider4 li:last-child,ul.tab_cates-slider1 li:last-child ,ul.tab_ca
 .tab-category-container-slider .bx-controls .bx-pager-item a.active{
 	width:12px;
 	height:12px;
-	background: #45D8BB;
+	background: #E75768;
 	border-radius:6px;
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
@@ -15107,7 +15107,7 @@ ul.tab_cates-slider4 li:last-child,ul.tab_cates-slider1 li:last-child ,ul.tab_ca
 /*************************************************************************************/
 /**************************************** Color **************************************/
 .box-category .cate_title,.pos-new-product .title_block h4 {background: url(../img/Teal_Magenta/bg-bottom-title.png) left bottom no-repeat; }
-.pt_vmegamenu div.popup a:hover,.simpleblog-recent .simpleblog-post-item h2 a:hover,ul.tab_cates-slider4 li.active, ul.tab_cates-slider4 li:hover,ul.tab_cates-slider1 li.active, ul.tab_cates-slider1 li:hover,ul.tab_cates-slider2 li.active, ul.tab_cates-slider2 li:hover,ul.tab_cates-slider3 li.active, ul.tab_cates-slider3 li:hover,#footer a:hover,.pb-center-column #product_reference span,#product_condition .editable,.simpleblog-recent .simpleblog-posts .post-additional-info span.post-author b,.ph_simpleblog .post-additional-info span strong,.ph_simpleblog b.author,.product-name:hover ,.button.ajax_add_to_cart_button:hover span,.pt_vmegamenu .popup .column>div.itemMenu>a:hover, #header .shopping_cart a.cart_block_product_name:hover,#viewed-products_block_left li a.product-name:hover,#usefull_link_block li a:hover,#layered_block_left .layered_subtitle,.ph_simpleblog .simpleblog-posts .post-additional-info a,.simpleblog-single .post-additional-info a {color: #45d8bb;}
+.pt_vmegamenu div.popup a:hover,.simpleblog-recent .simpleblog-post-item h2 a:hover,ul.tab_cates-slider4 li.active, ul.tab_cates-slider4 li:hover,ul.tab_cates-slider1 li.active, ul.tab_cates-slider1 li:hover,ul.tab_cates-slider2 li.active, ul.tab_cates-slider2 li:hover,ul.tab_cates-slider3 li.active, ul.tab_cates-slider3 li:hover,#footer a:hover,.pb-center-column #product_reference span,#product_condition .editable,.simpleblog-recent .simpleblog-posts .post-additional-info span.post-author b,.ph_simpleblog .post-additional-info span strong,.ph_simpleblog b.author,.product-name:hover ,.button.ajax_add_to_cart_button:hover span,.pt_vmegamenu .popup .column>div.itemMenu>a:hover, #header .shopping_cart a.cart_block_product_name:hover,#viewed-products_block_left li a.product-name:hover,#usefull_link_block li a:hover,#layered_block_left .layered_subtitle,.ph_simpleblog .simpleblog-posts .post-additional-info a,.simpleblog-single .post-additional-info a {color: #E75768;}
 
 
 .price.product-price,.price, #header .cart_block .price.cart_block_total,#header .cart_block .cart-info span.price {color:#e75768; font-family: 'titilliumwebsemibold';}
@@ -15120,12 +15120,12 @@ ul.product_list.grid > li .product-container .product-image-container .content_p
 .box-info-product .exclusive,.top-pagination-content ul.pagination li.active > span, .bottom-pagination-content ul.pagination li.active > span ,ul.product_list.list .button-container a.ajax_add_to_cart_button span,.nivo-controlNav a:hover,.nivo-controlNav a.active ,.tags_block .block_content a:hover,.pos-special-product .bx-wrapper .bx-pager.bx-default-pager a:hover, .pos-special-product .bx-wrapper .bx-pager.bx-default-pager a.active,.compare-form .button.button-medium, .cart_block .cart-buttons a#button_order_cart span,.comments_advices a.reviews span.read,.new_comment_form_content .btn,.comments_advices a.reviews span.read,.comments_advices li a span.read,.comments_advices li a.open-comment-form span,#product_comments_block_tab a,#availability_value, #last_quantities,#layer_cart .layer_cart_cart .button-container .btn  {background: #45d8bb;}
 
 
-.mypresta_scrollup,#search_block_top .btn.button-search {background-color: #45d8bb }
+.mypresta_scrollup,#search_block_top .btn.button-search {background-color: #E75768 }
 .pt_vmegamenu #pt_ver_menu_link ul li a.act, .pt_vmegamenu #pt_ver_menu_link ul li a:hover, .pt_vmegamenu div.pt_menu.act .parentMenu a,.pt_vmegamenu div.pt_menu .parentMenu span.block-title:hover, .pt_vmegamenu div.pt_menu .parentMenu a:hover, .pt_vmegamenu div.pt_menu.active .parentMenu a,#view_scroll_left:hover {
-    border-color: #45d8bb;
-    color: #45d8bb
+    border-color: #E75768;
+    color: #E75768
 }
-#pt_custommenu .parentMenu a:hover,#pt_menu_pt_item_menu_custom_menu span:hover,#pt_custommenu .pt_menu.active .parentMenu span,#pt_custommenu .pt_menu.active .parentMenu a {border-color: #45d8bb;}
+#pt_custommenu .parentMenu a:hover,#pt_menu_pt_item_menu_custom_menu span:hover,#pt_custommenu .pt_menu.active .parentMenu span,#pt_custommenu .pt_menu.active .parentMenu a {border-color: #E75768;}
 .box-info-product .exclusive, ul.product_list.list .button-container a.ajax_add_to_cart_button span,.button.button-medium, .cart_block .cart-buttons a#button_order_cart span,#search_block_top .btn.button-search,#layer_cart .layer_cart_cart .button-container .btn {border-bottom: 3px solid #3bb89f;}
 .posproductcategory_h2 h4 {background: url(../img/Teal_Magenta/bg2-bottom-title.png) left bottom no-repeat;}
 .pt_vmegamenu div.pt_menu:hover,.pt_vmegamenu div.pt_menu.act {background: url(../img/Teal_Magenta/bg-left-menu-hover.png) 90% 50% no-repeat;}
@@ -15135,7 +15135,36 @@ ul.product_list.grid > li .product-container .product-image-container .content_p
     .shopping_cart a:hover { background-position: 0 100%;}
 
 
-.pt_vmegamenu .vmegamenu_title {background-color: #f4ca49; border-color: #dbb542}
+.pt_vmegamenu .vmegamenu_title {
+  background-color: #E75768; 
+  /*border-color: #dbb542*/
+}
+button.btn-black {
+    display: inline-block;
+    background: none repeat scroll 0% 0% #474E58;
+    border-width: medium medium 3px;
+    border-style: none none solid;
+    border-color: -moz-use-text-color -moz-use-text-color #323A45;
+    padding: 7px 18px;
+    text-align: center;
+    white-space: nowrap;
+    color: #FFF;
+    border-radius: 5px;
+    vertical-align: top;
+}
+.form-group .form-control {
+    display: inline-block;
+    margin: 0px 12px 0px 0px;
+    height: 39px;
+    line-height: 25px;
+    padding: 4px 10px;
+}
+.block_content{
+  background-color: #F1F1F1;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 0px 0px 4px 4px;
+}
 
 
 
